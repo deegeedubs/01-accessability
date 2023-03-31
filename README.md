@@ -1,1 +1,1 @@
-# 01-accessability
+# 01-accessibility
