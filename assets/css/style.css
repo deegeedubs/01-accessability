@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* This code applies a buffer when using in-page links. Since the header is sticky, it does not need to scroll as far. */
 html {
     scroll-padding-top: 7rem;
 }
@@ -12,6 +13,8 @@ body {
     background-color: #c2d3e4;
 }
 
+/* Header styling */
+/* Header position is sticky to keep the nav bar on screen at all times. */
 header {
     position: sticky;
     top: 0px;
@@ -27,6 +30,7 @@ header h1 {
     text-shadow: 2px 2px 0px #000000;
 }
 
+/* Since logo is a link now, removed underline */
 header h1 a{
     font-size: 48px;
     color: #ffffff;
@@ -60,6 +64,8 @@ header nav ul li a{
     text-shadow: 1px 1px 0px #000000;
 }
 
+/* Body Styling */
+/* Big photo under the nav bar. */
 .hero {
     height: 800px;
     width: 100%;
@@ -83,6 +89,7 @@ p {
     margin-left: 25px;
 }
 
+/* content classes for the stuff inside the main section */
 .content {
     width: 75%;
     display: inline-block;
@@ -112,6 +119,8 @@ p {
     text-shadow: 2px 2px 0px #000000;
 }
 
+
+/* benefits classes for the stuff inside the aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -145,6 +154,7 @@ p {
     text-align: justify;
 }
 
+/* Footer styling */
 footer {
     padding: 30px;
     clear: both;

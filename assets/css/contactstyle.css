@@ -12,6 +12,7 @@ body {
     background-color: #c2d3e4;
 }
 
+/* Header styling */
 header {
     position: sticky;
     top: 0px;
@@ -60,6 +61,7 @@ header nav ul li a{
     text-shadow: 1px 1px 0px #000000;
 }
 
+/* Body styling */
 main {
     padding: 25px;
 }
@@ -74,6 +76,7 @@ main h2{
     padding-bottom: 20px;
 }
 
+/* Form Styling -- will take up most of the page, keeping it centered. */
 form {
     position: relative;
     text-align: left;
@@ -91,6 +94,7 @@ form {
     color: #ffffff;
 }
 
+/* styling for the text boxes */
 input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
